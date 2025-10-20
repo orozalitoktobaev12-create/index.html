@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Справка — Мурат уулу Жылдызбек</title>
+  <style>
+    html,body{height:100%;margin:0;padding:0;background:#0b0b0b;color:#fff;font-family: 'Times New Roman', Times, serif}
+    .page{max-width:820px;margin:24px auto;padding:28px;background:linear-gradient(#0b0b0b,#0b0b0b);box-shadow:0 0 0 1px rgba(255,255,255,0.02)}
+    header{text-align:center;margin-bottom:18px}
+    h1{font-size:16px;margin:0 0 6px;letter-spacing:0.8px}
+    h2{font-size:14px;margin:0 0 6px}
+    .center{text-align:center}
+    p{line-height:1.35;font-size:14px}
+    .small{font-size:12px}
+    .fields{margin-top:10px}
+    .field{margin:8px 0}
+    .label{font-weight:700}
+    .qr-block{position:fixed;right:18px;bottom:18px;text-align:center}
+    .qr-note{font-size:12px;color:#ddd;margin-bottom:6px}
+    .meta{margin-top:18px;font-size:13px}
+    .sign{margin-top:24px}
+    .footer-note{font-size:11px;color:#ccc;margin-top:18px}
+    @media screen and (max-width:880px){.page{margin:8px;padding:18px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="center">
+      <div class="small">МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ КЫРГЫЗСКОЙ РЕСПУБЛИКИ</div>
+      <h1>КЫРГЫЗСКАЯ ГОСУДАРСТВЕННАЯ МЕДИЦИНСКАЯ АКАДЕМИЯ имени И.К. АХУНБАЕВА</h1>
+      <h2>Педиатрия</h2>
+      <h2>СПРАВКА</h2>
+    </header>
+
+    <p>Настоящая справка подтверждает, что <b>Мурат уулу Жылдызбек</b>, <b>08.09.2005</b> года рождения, в том, что он действительно является студентом <b>3-курса</b>, группы <b>17</b>, факультета "Педиатрия" Кыргызской Государственной Медицинской Академии им. И.К. Ахунбаева.</p>
+
+    <div class="fields">
+      <div class="field"><span class="label">Форма обучения:</span> очная, контракт.</div>
+      <div class="field"><span class="label">Период обучения:</span> с 2024 г. по 2029 г.</div>
+      <div class="field"><span class="label">Нормативный срок освоения:</span> 6 лет.</div>
+      <div class="field"><span class="label">Справка выдана:</span> по месту требования.</div>
+    </div>
+
+    <div class="meta">
+      <div class="label">Сроки обучения в текущем учебном году:</div>
+      <ul>
+        <li>осенний семестр: с 01.09.2025 г. по 03.01.2026 г.</li>
+        <li>весенний семестр: с 19.01.2026 г. по 30.05.2026 г.</li>
+        <li>каникулярный период: с 01.06.2026 г. по 31.08.2026 г.</li>
+      </ul>
+
+      <div class="field"><span class="label">Уникальный номер документа:</span> 10-25-63-3882</div>
+      <div class="field">Исполнитель: Усманбетова Н.У., 20.10.2025 г.</div>
+
+      <div class="sign">Директор ЦООС ___________________ Томилина С.В.</div>
+    </div>
+
+    <div class="footer-note">
+      <div>Примечание: Документ имеет юридическую силу согласно Законам «Об электронной подписи» от 19 июля 2017 года № 128 и «Об электронном управлении» от 19 июля 2017 года № 127. В редакции Закона КР от 24 июля 2020 года № 94, 18 ноября 2022 года №4.</div>
+    </div>
+  </div>
+
+  <div class="qr-block">
+    <div class="qr-note">Для проверки данных — отсканируйте QR:</div>
+    <img id="qr" alt="qr" width="180" height="180" style="background:#fff;padding:6px" />
+    <div class="small" style="margin-top:6px;color:#ddd">Уникальный номер: 10-25-63-3882</div>
+  </div>
+
+  <script>
+    (function(){
+      try{
+        var url = location.href;
+        var img = document.getElementById('qr');
+        var qrSrc = 'https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=' + encodeURIComponent(url) + '&chld=L|1';
+        img.src = qrSrc;
+      }catch(e){console.error(e)}
+    })();
+  </script>
+</body>
+</html>
